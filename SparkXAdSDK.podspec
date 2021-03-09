@@ -4,11 +4,11 @@ Pod::Spec.new do |s|
   s.summary = "\u5E7F\u544A\u805A\u5408sdk"
   s.license = "MIT"
   s.authors = {"mob"=>"wei.yang@sparkxmarketing.com"}
-  s.homepage = "http://gitlab.sparkxmarketing.com/sparkxadsdk/sparkxadsdkios/sparkxadsdk.git"
+  s.homepage = "https://github.com/YingYou/SparkXAdSDK.git"
   s.frameworks = ["UIKit", "Foundation", "WebKit"]
   s.requires_arc = true
   s.xcconfig = {"ENABLE_BITCODE"=>"No", "OTHER_LDFLAGS"=>"-ObjC"}
-  s.source = { :path => '.' }
+  s.source       = { :git => "https://github.com/YingYou/SparkXAdSDK.git", :tag => s.version }
 
   s.ios.deployment_target    = '9.0'
   s.ios.vendored_framework   = 'SparkXAdSDK.framework'
