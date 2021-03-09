@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "SparkXAdSDK"
-  s.version = "1.0.0"
+  s.version = "1.0.1"
   s.summary = "\u5E7F\u544A\u805A\u5408sdk"
   s.license = "MIT"
   s.authors = {"mob"=>"wei.yang@sparkxmarketing.com"}
