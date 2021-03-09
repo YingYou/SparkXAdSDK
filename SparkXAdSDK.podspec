@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name = "SparkXAdSDK"
-  s.version = "1.0.1"
+  s.version = "1.0.2"
   s.summary = "\u5E7F\u544A\u805A\u5408sdk"
   s.license = "MIT"
-  s.authors = {"mob"=>"wei.yang@sparkxmarketing.com"}
-  s.homepage = "https://github.com/YingYou/SparkXAdSDK.git"
+  s.authors = {"smile"=>"505397638@qq.com"}
+  s.homepage = "https://github.com/YingYou/SparkXAdSDK"
   s.frameworks = ["UIKit", "Foundation", "WebKit"]
   s.requires_arc = true
   s.xcconfig = {"ENABLE_BITCODE"=>"No", "OTHER_LDFLAGS"=>"-ObjC"}
